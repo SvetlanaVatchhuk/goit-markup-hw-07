@@ -1,0 +1,51 @@
+.socials {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+
+
+&__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    background-color: var(--bg-body-color);
+    border-radius: 50%;
+
+    transition: background-color var(--anim-fast);
+}
+
+&__icon {
+    fill: var(--bg-fill-color);
+
+    transition: fill var(--anim-fast);
+}
+
+&__icon:hover {
+    fill: var(--bg-body-color);
+}
+
+&__link:hover &__icon,
+&__link:focus &__icon {
+    fill: var(--bg-body-color);
+}
+
+&__link.footerblock {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+&__icon.footerblock {
+    fill: var(--bg-body-color);
+    transition: none;
+}
+
+&__link:hover,
+&__link:focus {
+    background-color: var(--bg-logo-color);
+}
+
+
+
+
+}

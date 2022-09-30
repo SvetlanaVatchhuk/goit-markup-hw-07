@@ -1,0 +1,31 @@
+body {
+    font-family: var(--main-font);
+    font-size: 14px;
+    color: var(--primary-text-color);
+    background-color: var(--bg-body-color);
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+.container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    /*border: 1px solid red;   !!!!!!*/
+}
+
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}

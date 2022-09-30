@@ -1,0 +1,42 @@
+/* секция Особенности работы  */
+
+.specificity {
+    padding-bottom: 0;
+
+
+&__items {
+    display: flex;
+    gap: 30px;
+}
+
+&__list {
+    width: 270px;
+}
+
+&__icon {
+    background: #f5f4fa;
+    border-radius: 4px;
+    height: 120px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+&__subject {
+    margin-bottom: 10px;
+
+    font-weight: 700;
+    line-height: calc(14 / 16);
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--primary-text-color);
+    font-size: 14px;
+}
+
+&__subtitle {
+    line-height: calc(24 / 14);
+    letter-spacing: 0.03em;
+    color: var(--text-comment-color);
+}
+}

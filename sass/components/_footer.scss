@@ -1,0 +1,43 @@
+.footersection {
+    background: var(--bg-accent-color);
+    padding: 60px 0;
+
+
+&__subject {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: calc(14 / 16);
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--secondary-text-color);
+
+    margin-bottom: 20px;
+}
+
+&__title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: calc(14 / 16);
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--secondary-text-color);
+
+    margin-bottom: 20px;
+}
+
+&__block {
+    display: flex;
+    align-items: baseline;
+}
+
+&__card {
+    margin-right: 70px;
+}
+
+&__mailing {
+    width: 570px;
+
+    margin-right: 0px;
+    margin-left: auto;
+}
+}

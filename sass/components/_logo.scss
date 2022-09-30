@@ -1,0 +1,27 @@
+/* стили логотипа */
+.logo {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: calc(31 / 26);
+    letter-spacing: 0.03em;
+
+&--nav {
+    /* модификатор*/
+
+    margin-right: 93px;
+    color: var(--text-web-color);
+}
+
+&--span {
+    color: var(--text-logo-color);
+}
+
+
+
+&--footer {
+    display: block;
+    margin-bottom: 20px;
+    color: var(--secondary-text-color);
+}
+}
